@@ -5,6 +5,11 @@
           box-sizing: border-box;
 }
 
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#159957), to(#155799));
+  background: linear-gradient(to right, #159957, #155799);
+}
+
 .username {
   width: 100vw;
   height: 100vh;
