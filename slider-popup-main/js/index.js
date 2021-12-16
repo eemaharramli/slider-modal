@@ -89,8 +89,6 @@ function slideNext() {
     let nextImage = null;
     let nextElement = active.nextElementSibling
     if (nextElement === null) {
-        console.log('last slide')
-        console.log(active.parentNode.firstChild)
         nextImage = images[0].getAttribute("href");
         images[0].classList.add('active');
     }
