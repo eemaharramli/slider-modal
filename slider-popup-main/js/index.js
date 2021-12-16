@@ -111,7 +111,7 @@ function checkUser(username){
         container.style.display = 'flex'
         firstPage.style.display = 'none'
         title.textContent = `Hello ${username.value}`
-    }else console.log('is null')
+    }else alert('Please input the username')
 }
 
 function removeActiveClass(){
